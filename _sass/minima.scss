@@ -19,10 +19,9 @@ $borderColor: $grayLight;
 // typography
 $fontsize: 20px;
 $lineheight: 31px;
-$headline-font: "Vidaloka", serif;
-$subhead-font: "Montserrat", sans-serif;
+$headline-font: 'Just Another Hand', cursive;
 $headline-weight: 100;
-$body-font: "Source Sans Pro", sans-serif;
+$body-font: 'Nunito', sans-serif;
 $body-weight: 300;
 
 /** MIXINS **/
@@ -33,7 +32,11 @@ $body-weight: 300;
          -o-transition: $transition;
             transition: $transition;
 }
-  
+
+@mixin bg-color-transition {
+    @include transition(background-color .5s ease-in-out);
+}
+
 @mixin color-transition {
     @include transition(color .5s ease-in-out);
 }
@@ -62,28 +65,33 @@ $body-weight: 300;
 
 // typography
 
-h1, h2, h3, h4, h5, h6 {
+h2, h3, h5, h6 {
 	font-family: $headline-font;
 	font-weight: $headline-weight;
 	text-rendering: optimizeSpeed;
 }
 
 h1 { 
-	line-height: $lineheight * 2; 
+    font-family: $body-font;
+    line-height: $lineheight; 
     font-size: $fontsize * 1.5; 
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
     margin: 0em;
     padding: 0em;
     a {
-        color: $white;
+        color: $black;
         &:hover {
-            color: $white;
+            color: $black;
         }
     }
 } 
 
 h2 { 
 	line-height: $lineheight * 1.3;
-	font-size: $fontsize * 2.25; 
+    font-size: $fontsize * 4; 
+    letter-spacing: 0.02em;
+    text-align: center;
 }
 
 h3 { 
@@ -93,11 +101,21 @@ h3 {
 }
 
 h4 {
-	font-family: $subhead-font;
-	font-weight: $headline-weight;
-	line-height: $lineheight * 1.1;
-    font-size: $fontsize * 1.1;
+	font-family: $body-font;
+	font-weight: $body-weight;
+	line-height: $lineheight * 0.75;
+    font-size: $fontsize * 0.75;
     margin-bottom: 0em;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin: 0em;
+    padding: 0em;
+    a {
+        color: $black;
+        &:hover {
+            color: $black;
+        }
+    }
 } 
 
 h5 { 
@@ -122,6 +140,22 @@ a {
     }
 }
 
+button {
+    margin: 0 auto;
+    display: inherit;
+    background-color: $teal;
+    border: 2px solid $teal;
+    padding: 0.5em;
+    color: $white;
+	&:hover {
+        color: $teal;
+        background-color: $white;
+    }
+    &:focus {
+        outline: none;
+    }
+}
+
 blockquote p {
     line-height: $lineheight * 0.75;
     color: $grayLight;
@@ -142,11 +176,14 @@ p + .caption {
 }
 
 ul {	
-	margin-bottom: 1.25em;
+    margin-bottom: 1.25em;
+    list-style-image: url("/images/logo-tiny.png");
+    padding-inline-start: 1.5em
 }
 
 li {
-	line-height: $lineheight * 0.85;
+    line-height: $lineheight;
+    padding-left: 0.25em;
 }
 
 .rss {
@@ -155,6 +192,10 @@ li {
 
 // layout
 
+html {
+    height: 100%;
+}
+
 body {
     margin: 0;
 	font-weight: $body-weight;
@@ -162,7 +203,7 @@ body {
 	line-height: $lineheight;
 	font-family: $body-font;
     color: $bodyFontColor;
-    min-height: 100%;
+    height: 100%;
 }
 
 main {
@@ -172,7 +213,23 @@ main {
 
 header {
     text-align: center;
-    background-color: $teal;
+    background: url("/images/3.png") no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 50%;
+}
+
+.logo {
+    display: inline-block;
+    margin: 1em;
+    background: $white;
+    opacity: .7;
+    border-radius: 50%;
+    padding: 1em;
+    img {
+        margin-top: 1em;
+        max-width: 100px;
+    }
 }
 
 section {
@@ -188,16 +245,26 @@ section {
 .footer {
     @extend %small;
     padding-bottom: 2em;
-    color: $white;
-    background-color: $teal;
+    color: $bodyFontColor;
+    background: url("/images/7.png") no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    min-height: 50%;
     max-width: 100%;
     a {
-        color: $white;
+        color: $bodyFontColor;
         text-decoration: underline;
         &:hover {
-            color: $white;
+            color: $bodyFontColor;
         }
     }
+}
+
+.footer-content {
+    background-color: $white;
+    opacity: 0.7;
+    padding: 1em;
+    display: inline-block;
 }
 
 img {
@@ -259,7 +326,7 @@ ul.icons {
     background: #fff;
     opacity: .96;
     border-bottom: 2px solid #ccc;
-    font-family: $subhead-font;
+    font-family: $body-font;
 }
 
 .nav-stuck {
@@ -280,10 +347,6 @@ ul.icons {
 .nav-item a {
     border-bottom: 1px transparent;
     cursor: pointer;
-}
-
-.nav-item a:hover {
-    border-bottom: 1px #aaa solid;
 }
 
 @media (max-width: 700px) {
