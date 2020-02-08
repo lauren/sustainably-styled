@@ -1,28 +1,26 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<section>
-    {{ content }}
-</section>
+  {%- include head.html -%}
 
-<section>
-  {%- if site.posts.size > 0 -%}
-    <h2>Posts</h2>
-    {%- for post in site.posts -%}
-      {%- assign date_format = site.minima.date_format | default: "%-d %B %Y" -%}
-      <h4>{{ post.date | date: date_format }}</h4>
-      <h3>
-        <a href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h3>
-      {%- if site.show_excerpts -%}
-        <p>
-          {{ post.excerpt }}
-        </p>
-      {%- endif -%}
-    {%- endfor -%}
+  <body>
 
-  {%- endif -%}
-</section>
+    {%- include header.html -%}
+
+    <main aria-label="Content">
+      <section>
+        {{ content }}
+      </section>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"
+    integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+    crossorigin="anonymous">
+  </script>
+  <script src="script.js"></script>
+
+</html>
