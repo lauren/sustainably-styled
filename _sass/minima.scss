@@ -8,9 +8,9 @@ $gray:                  #555;
 $grayLight:             #999;
 $grayLighter:           #eee;
 $grayLightest:			#fafafa;
-$white:                 #fff; 
+$white:                 #fff;
 
-// colors 
+// colors
 $teal: #09aba7;
 $bodyFontColor: $grayDarker;
 $highlightFontColor: $teal;
@@ -19,10 +19,12 @@ $borderColor: $grayLight;
 // typography
 $fontsize: 20px;
 $lineheight: 31px;
-$headline-font: 'Just Another Hand', cursive;
+$headline-font: 'Dawning of a New Day', cursive;
 $headline-weight: 100;
-$body-font: 'Nunito', sans-serif;
+$body-font: 'Open Sans', sans-serif;
 $body-weight: 300;
+$logo-font: 'Nunito', sans-serif;
+$logo-weight: 300;
 
 /** MIXINS **/
 
@@ -92,11 +94,11 @@ h1 {
 } 
 
 h2 { 
-	line-height: $lineheight * 1.3;
-    font-size: $fontsize * 4; 
+	line-height: $lineheight;
+    font-size: $fontsize * 4;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0.7em;
     margin-block-start: auto;
 }
 

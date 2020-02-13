@@ -5,11 +5,9 @@
 layout: home
 ---
 <section>
-<h2 data-header-item="about">Hi, I'm Jane!</h2>
+<h2 data-header-item="about">hi, I'm Jane!</h2>
 
 <h4 class="text-center">I’d love to help you use what’s already in your closet and shop more responsibly, sustainably and economically.</h4>
-
-<h3>Who I Am</h3>
 
 <p>When I came to New York for college almost 20 years ago, I volunteered at a local <a href="https://www.housingworks.org/" target="_blank">Housing Works</a> thrift shop, and became obsessed with the beautiful, high-quality clothing that people donated. I have been shopping secondhand ever since.</p>
 
@@ -25,7 +23,7 @@ layout: home
 
 <p id="services">Since I’ve spent hundreds of hours in thrift stores, my process is both intuitive and intentional. My style is guided by that of my clients, with a fresh eye for quality and proportion.</p>
 
-<h3>How I Style</h3>
+<h3>how I style</h3>
 
 <p><em>I am 100% upcycled:</em> I believe the most sustainable way shop is to buy secondhand. I have many talented colleagues who work with brands that don’t pollute the earth or produce human suffering, and that’s great. But I have clients who don’t see the items they like to wear from companies they want to buy from, and even more clients for whom the prices of ethical brands are not accessible. Moreover, I know that <a href="https://scienceline.org/2018/06/the-troubled-second-life-of-donated-clothes/" target="blank">over 80% of donated clothes currently go to landfills</a>, and I want to do something to address this issue.</p>
 
@@ -42,11 +40,11 @@ layout: home
 
 <div class="services">
 
-<h2 data-header-item="services">Services</h2>
+<h2 data-header-item="services">services</h2>
 
 <div class="service">
 
-<h3>Closet Edit: Re-love Your Closet (NYC/Virtual)</h3>
+<h3>closet edit: re-love your closet</h3>
 
 <p>Before booking a shopping trip, I recommend recommend starting with the Re-love Your Closet service.</p>
 
@@ -69,12 +67,12 @@ layout: home
 <p>Time: 3-5 hours (exact time depends on the size of your closet)
 Rate: $75/hour</p>
 
-<a href="/start" class="button">Get Started</a>
+<a href="/start" class="button">get started</a>
 
 </div>
 <div class="service">
 
-<h3>Sustainable Shopping (NYC)</h3>
+<h3>sustainable shopping (nyc)</h3>
 
 <p>While I recommend doing the closet edit prior to shopping, some of my clients prefer to dive right in! I’ll arrive at the store about an hour before you to pre-select items.</p>
 
@@ -95,7 +93,7 @@ Rate: $75/hour</p>
 
 <div class="service">
 
-<h3>Virtual Styling</h3>
+<h3>virtual styling</h3>
 
 <p>Not in NYC area? No worries! Whether you are looking for seasonal items, a specific piece, clothes for an upcoming vacation, or a killer special occasion outfit, I can take the stress out of the sourcing process!</p>
 
@@ -108,9 +106,9 @@ Rate: $75/hour</p>
 
 </div>
 <section>
-<h2 data-header-item="faqs">FAQs</h2>
+<h2 data-header-item="faqs">faq</h2>
 
-<h3>How do I prepare for the Closet Edit?</h3>
+<h3>How do I prepare?</h3>
 
 <p>Think about the goals you have for working with me: How do you want to update your look? What are the challenges you have when getting dressed in the morning? Are there specific occasions where you find yourself struggling with what to wear?</p>
 
