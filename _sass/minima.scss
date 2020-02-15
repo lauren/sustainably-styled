@@ -79,8 +79,8 @@ h2, h3, h5, h6 {
 
 h1 { 
     font-family: $body-font;
-    line-height: $lineheight; 
-    font-size: $fontsize * 1.5; 
+    line-height: $lineheight;
+    font-size: $fontsize * 1.5;
     text-transform: uppercase;
     letter-spacing: 0.04em;
     margin: 0em;
@@ -94,7 +94,7 @@ h1 {
 } 
 
 h2 { 
-	line-height: $lineheight;
+	line-height: $lineheight * 2;
     font-size: $fontsize * 4;
     letter-spacing: 0.02em;
     text-align: center;
