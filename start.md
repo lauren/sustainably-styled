@@ -4,7 +4,7 @@
 
 layout: post
 ---
-<h2>Get Started</h2>
+<h2>get started</h2>
 
 <h4 class="text-center">Thanks for your interest in working with me! Before we begin, I'd love to understand more about what brings your here; your current wardrobe, needs and and goals.</h4>
 
