@@ -46,7 +46,7 @@ layout: home
 
 <h3>closet edit: re-love your closet</h3>
 
-<p>Before booking a shopping trip, I recommend recommend starting with the Re-love Your Closet service.</p>
+<p>Before booking a shopping trip, I recommend starting with the Re-love Your Closet service.</p>
 
 <p>The Re-Love Your Closet process includes an initial conversation, where I get some key information including your:</p>
 
