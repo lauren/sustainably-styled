@@ -243,6 +243,10 @@ header {
     img {
         margin-top: 1em;
         max-width: 100px;
+        height: auto;
+        float: none;
+        border-radius: 0;
+        padding: 0;
     }
     h1, h4 {
         font-family: $logo-font;
