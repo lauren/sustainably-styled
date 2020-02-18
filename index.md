@@ -9,6 +9,8 @@ layout: home
 
 <h4 class="text-center">I’d love to help you use what’s already in your closet and shop more responsibly, sustainably and economically.</h4>
 
+<img src="/images/jane.jpg" alt="Jane Kogan, Sustainably Styled founder"/>
+
 <p>When I came to New York for college almost 20 years ago, I volunteered at a local <a href="https://www.housingworks.org/" target="_blank">Housing Works</a> thrift shop, and became obsessed with the beautiful, high-quality clothing that people donated. I have been shopping secondhand ever since.</p>
 
 <p>While it was a financial necessity at first, thrifting has now become a passion project. I made the personal choice to opt out of fast fashion 5 years ago. Here's why:</p>
