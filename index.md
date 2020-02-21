@@ -9,7 +9,7 @@ layout: home
 
 <h4 class="text-center">I’d love to help you use what’s already in your closet and shop more responsibly, sustainably and economically.</h4>
 
-<img src="/images/jane.jpg" alt="Jane Kogan, Sustainably Styled founder"/>
+<img src="/images/jane2.jpg" alt="Jane Kogan, Sustainably Styled founder"/>
 
 <p>When I came to New York for college almost 20 years ago, I volunteered at a local <a href="https://www.housingworks.org/" target="_blank">Housing Works</a> thrift shop, and became obsessed with the beautiful, high-quality clothing that people donated. I have been shopping secondhand ever since.</p>
 
